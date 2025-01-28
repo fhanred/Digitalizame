@@ -1,10 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ReactPlayer from "react-player";
 import logo3 from "../assets/logo3.png";
 import engranaje from "../assets/engranaje.png";
 import engranaje2 from "../assets/engranaje2.png";
 import engranaje3 from "../assets/engranaje3.png";
-
+import video1 from "../assets/video1.mp4";
+import video2 from "../assets/video2.mp4";
 
 const Aterrizaje = () => {
   return (
@@ -116,10 +118,13 @@ const Aterrizaje = () => {
             {/* Nueva sección */}
             <div id="next-section" className="flex flex-col md:flex-row mt-8">
               <div className="w-full md:w-1/2 ml-0 md:ml-40">
-                <video controls className="w-full rounded-3xl shadow-lg">
-                  <source src="/assets/video2.mp4" type="video/mp4" />
-                  Tu navegador no soporta la etiqueta de video.
-                </video>
+                <ReactPlayer
+                  url={video2}
+                  controls
+                  width="100%"
+                  height="100%"
+                  className="rounded-3xl shadow-lg"
+                />
               </div>
               <div className="w-full md:w-1/2 flex items-center justify-center">
                 <motion.p
@@ -161,10 +166,13 @@ const Aterrizaje = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 ml-0 md:ml-40">
-            <video controls className="w-full rounded-3xl shadow-lg">
-              <source src="/assets/video1.mp4" type="video/mp4" />
-              Tu navegador no soporta la etiqueta de video.
-            </video>
+            <ReactPlayer
+              url={video1}
+              controls
+              width="100%"
+              height="100%"
+              className="rounded-3xl shadow-lg"
+            />
           </div>
         </div>
         <div className="absolute h-32 top-0 right-10 mt-80 mr-80">
