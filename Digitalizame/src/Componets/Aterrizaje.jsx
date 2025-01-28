@@ -1,4 +1,4 @@
-import React from "react";
+import  "react";
 import { motion } from "framer-motion";
 import logo3 from "../assets/logo3.png";
 import engranaje from "../assets/engranaje.png";
