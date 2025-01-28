@@ -11,7 +11,8 @@ export default {
         fondo:"#9c69c7"
       },
       fontSize: {
-        'custom': '11rem', // Ajusta este valor según tus necesidades
+        'custom': '11rem', 
+        'custom2': '5rem',
       },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'], 
