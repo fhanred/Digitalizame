@@ -8,9 +8,5 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
   },
-  server: {
-    watch: {
-      usePolling: true,
-    },
-  },
+ 
 })
