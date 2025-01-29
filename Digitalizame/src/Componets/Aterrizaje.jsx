@@ -322,7 +322,7 @@ const Aterrizaje = () => {
             <div className="text-center mt-8 pt-8 border-t border-gray-800">
   <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
     <p className="text-sm md:text-base my-auto">
-      Proyecto de Zasca, con alianza de Tuxstone
+      Proyecto en alianza con Tuxstone
     </p>
     <a
       href="https://www.tuxstone.com/digitalizame/"
