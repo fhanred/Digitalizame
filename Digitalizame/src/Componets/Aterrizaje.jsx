@@ -47,11 +47,11 @@ const Aterrizaje = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
               >
-                Con la solución tecnológica digitalizame tendrás
-                <br className="hidden md:block" />
-                un entorno para crear tu marca en el mundo digital
-                <br className="hidden md:block" />y mostrar al mundo lo que
-                haces
+                 Con la solución tecnológica digitalizame tendrás{' '}
+  <br className="hidden md:block" />
+  un entorno para crear tu marca en el mundo digital{' '}
+  <br className="hidden md:block" />
+  y mostrar al mundo lo que haces
               </motion.p>
             </div>
           </div>
@@ -156,9 +156,9 @@ const Aterrizaje = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.8 }}
                   >
-                    Es un software que te permite entregar bonos
+                    Es un software que te permite entregar bonos{' '}
                     <br className="hidden md:block" />
-                    de manera digital a tus clientes y otorgarle un
+                    de manera digital a tus clientes y otorgarle un{' '}
                     <br className="hidden md:block" />
                     descuento, obsequio o beneficio por las recompras que haga
                     en tu negocio.
@@ -209,9 +209,9 @@ const Aterrizaje = () => {
                     Mejora tus perfiles para que luzcan profesionales,
                     <br className="hidden md:block" />
                     conecten con tu público ideal y conviertan visitantes en
-                    clientes.
+                    clientes.{' '}
                     <br className="hidden md:block" />
-                    Ajustamos tu biografía, diseño y enlaces estratégicos
+                    Ajustamos tu biografía, diseño y enlaces estratégicos{' '}
                     <br className="hidden md:block" />
                     para que tus redes trabajen por tu negocio.
                     <br className="hidden md:block" />
@@ -284,15 +284,15 @@ const Aterrizaje = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 }}
                 >
-                  Es un dispositivo tecnologico que permite
+                  Es un dispositivo tecnologico que permite{' '}
                   <br className="hidden md:block" />
-                  la conexion, enre los dueños de negocios y
+                  la conexion, entre los dueños de negocios y{' '}
                   <br className="hidden md:block" />
-                  sus clientes para que estos se queden con toda
+                  sus clientes para que estos se queden con toda{' '}
                   <br className="hidden md:block" />
-                  la informacion sin contacto y de forma facil,
+                  la informacion sin contacto y de forma facil,{' '}
                   <br className="hidden md:block" />
-                  ganar seguidores en redes sociales que a futuro
+                  ganar seguidores en redes sociales que a futuro{' '}
                   <br className="hidden md:block" />
                   se converitan en clientes.
                 </motion.p>
@@ -333,7 +333,7 @@ const Aterrizaje = () => {
       <img
         src={LogoZasca}
         alt="Logo Zasca"
-        className="h-68 md:h-10 xl:h-20"
+        className="h-20 md:h-10 xl:h-20"
       />
     </a>
   </div>
