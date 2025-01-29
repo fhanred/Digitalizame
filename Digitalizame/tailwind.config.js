@@ -13,6 +13,7 @@ export default {
       fontSize: {
         'custom': '11rem',
         'custom2': '5rem',
+        'custom3': '3rem',
       },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
