@@ -208,8 +208,8 @@ const Aterrizaje = () => {
                   >
                     Mejora tus perfiles para que luzcan profesionales,
                     <br className="hidden md:block" />
-                    conecten con tu público ideal y conviertan visitantes en
-                    clientes. <br className="hidden md:block" />
+                    conecten con tu público ideal y se convertirán, visitantes en
+                    clientes.  <br className="hidden md:block" />
                     Ajustamos tu biografía, diseño y enlaces estratégicos{" "}
                     <br className="hidden md:block" />
                     para que tus redes trabajen por tu negocio.
