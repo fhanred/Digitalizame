@@ -47,11 +47,11 @@ const Aterrizaje = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
               >
-                 Con la solución tecnológica digitalizame tendrás{' '}
-  <br className="hidden md:block" />
-  un entorno para crear tu marca en el mundo digital{' '}
-  <br className="hidden md:block" />
-  y mostrar al mundo lo que haces
+                Con la solución tecnológica digitalizame tendrás{" "}
+                <br className="hidden md:block" />
+                un entorno para crear tu marca en el mundo digital{" "}
+                <br className="hidden md:block" />y mostrar al mundo lo que
+                haces
               </motion.p>
             </div>
           </div>
@@ -156,9 +156,9 @@ const Aterrizaje = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.8 }}
                   >
-                    Es un software que te permite entregar bonos{' '}
+                    Es un software que te permite entregar bonos{" "}
                     <br className="hidden md:block" />
-                    de manera digital a tus clientes y otorgarle un{' '}
+                    de manera digital a tus clientes y otorgarle un{" "}
                     <br className="hidden md:block" />
                     descuento, obsequio o beneficio por las recompras que haga
                     en tu negocio.
@@ -209,9 +209,8 @@ const Aterrizaje = () => {
                     Mejora tus perfiles para que luzcan profesionales,
                     <br className="hidden md:block" />
                     conecten con tu público ideal y conviertan visitantes en
-                    clientes.{' '}
-                    <br className="hidden md:block" />
-                    Ajustamos tu biografía, diseño y enlaces estratégicos{' '}
+                    clientes. <br className="hidden md:block" />
+                    Ajustamos tu biografía, diseño y enlaces estratégicos{" "}
                     <br className="hidden md:block" />
                     para que tus redes trabajen por tu negocio.
                     <br className="hidden md:block" />
@@ -284,15 +283,15 @@ const Aterrizaje = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.6 }}
                 >
-                  Es un dispositivo tecnologico que permite{' '}
+                  Es un dispositivo tecnológico que permite{" "}
                   <br className="hidden md:block" />
-                  la conexion, entre los dueños de negocios y{' '}
+                  la conexión, entre los dueños de negocios y{" "}
                   <br className="hidden md:block" />
-                  sus clientes para que estos se queden con toda{' '}
+                  sus clientes para que estos se queden con toda{" "}
                   <br className="hidden md:block" />
-                  la informacion sin contacto y de forma facil,{' '}
+                  la información sin contacto y de forma facil,{" "}
                   <br className="hidden md:block" />
-                  ganar seguidores en redes sociales que a futuro{' '}
+                  ganar seguidores en redes sociales que a futuro{" "}
                   <br className="hidden md:block" />
                   se converitan en clientes.
                 </motion.p>
@@ -320,24 +319,24 @@ const Aterrizaje = () => {
               </a>
             </div>
             <div className="text-center mt-8 pt-8 border-t border-gray-800">
-  <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
-    <p className="text-sm md:text-base my-auto">
-      Proyecto en alianza con Tuxstone
-    </p>
-    <a
-      href="https://www.tuxstone.com/digitalizame/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:opacity-80 transition-opacity flex items-center"
-    >
-      <img
-        src={LogoZasca}
-        alt="Logo Zasca"
-        className="h-20 md:h-10 xl:h-20"
-      />
-    </a>
-  </div>
-</div>
+              <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                <p className="text-sm md:text-base my-auto">
+                  Proyecto en alianza con Tuxstone
+                </p>
+                <a
+                  href="https://www.tuxstone.com/digitalizame/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition-opacity flex items-center"
+                >
+                  <img
+                    src={LogoZasca}
+                    alt="Logo Zasca"
+                    className="h-20 md:h-10 xl:h-20"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
